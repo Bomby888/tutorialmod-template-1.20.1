@@ -14,6 +14,7 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		//bbob
 		LOGGER.info("Hello Fabric world!");
 	}
 }
