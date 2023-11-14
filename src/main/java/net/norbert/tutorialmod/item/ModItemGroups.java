@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.norbert.tutorialmod.TutorialMod;
+import net.norbert.tutorialmod.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -17,6 +18,9 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.IMPOSTER_SWORD);
                         entries.add(ModItems.MOGUS_ORE);
+                        entries.add(ModItems.MOGUS_INGOT);
+                        entries.add(ModBlocks.MOGUS_BLOCK);
+
 
                     })).build());
     public static void registerItemGroups(){
