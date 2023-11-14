@@ -12,9 +12,11 @@ import net.norbert.tutorialmod.TutorialMod;
 
 public class ModItems {
     public static final Item MOGUS_APPLE = registerItem("mogus_apple",new Item(new FabricItemSettings()));
+    public static final Item IMPOSTER_SWORD =registerItem("imposter_sword",new Item(new FabricItemSettings()));
 
     private static void addItemsToIngridientItemGroup(FabricItemGroupEntries entries){
         entries.add(MOGUS_APPLE);
+        entries.add(IMPOSTER_SWORD);
     }
 
     private static Item registerItem(String name, Item item){
