@@ -1,4 +1,7 @@
 {
-  "item.tutorialmod.mogus_apple": "Mogus apple"
-  "item.tutorialmod.imposter_sword": "Imposter sword"
+  "item.tutorialmod.mogus_ore": "Mogus ore",
+  "item.tutorialmod.mogus_ingot": "Mogus ingot",
+  "item.tutorialmod.imposter_sword": "Imposter sword",
+  "itemgroup.amongus": "Amongus Mod"
+
 }

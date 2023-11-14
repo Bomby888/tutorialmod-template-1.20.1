@@ -6,6 +6,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.norbert.tutorialmod.block.ModBlocks;
 import net.norbert.tutorialmod.item.ModItemGroups;
 import net.norbert.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -19,10 +20,13 @@ public class TutorialMod implements ModInitializer {
 
 
 
+
 	@Override
 	public void onInitialize() {
 		//bbob
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+
+		ModBlocks.registerModBlocks();
 	}
 }

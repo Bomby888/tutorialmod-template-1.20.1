@@ -11,12 +11,14 @@ import net.minecraft.util.Identifier;
 import net.norbert.tutorialmod.TutorialMod;
 
 public class ModItems {
-    public static final Item MOGUS_APPLE = registerItem("mogus_apple",new Item(new FabricItemSettings()));
+    public static final Item MOGUS_ORE = registerItem("mogus_ore",new Item(new FabricItemSettings()));
     public static final Item IMPOSTER_SWORD =registerItem("imposter_sword",new Item(new FabricItemSettings()));
+    public static final Item MOGUS_INGOT =registerItem("mogus_ingot",new Item(new FabricItemSettings()));
 
     private static void addItemsToIngridientItemGroup(FabricItemGroupEntries entries){
-        entries.add(MOGUS_APPLE);
+        entries.add(MOGUS_ORE);
         entries.add(IMPOSTER_SWORD);
+        entries.add(MOGUS_INGOT);
     }
 
     private static Item registerItem(String name, Item item){
@@ -26,6 +28,6 @@ public class ModItems {
     public static void registerModItems(){
         TutorialMod.LOGGER.info("Registering Mod items for "+TutorialMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToIngridientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToIngridientItemGroup);
     }
 }
