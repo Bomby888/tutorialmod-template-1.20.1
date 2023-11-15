@@ -16,10 +16,16 @@ public class ModBlocks {
 
     public static final Block MOGUS_BLOCK = registerBlock("mogus_block"
             ,new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.HONEY)));
+    public static final Block RAW_MOGUS_BLOCK = registerBlock("raw_mogus_block"
+            ,new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.SLIME)));
     //FabricBlockSettings.create()
+
+    public static final Block MOGUS_ORE_BLOCK = registerBlock("mogus_ore_block"
+            ,new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.HONEY)));
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
-        return Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID,name),block);
+        return Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID,name),
+                block);
     }
     private  static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MOD_ID,name),

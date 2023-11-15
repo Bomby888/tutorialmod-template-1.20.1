@@ -3,6 +3,8 @@
   "item.tutorialmod.mogus_ingot": "Mogus ingot",
   "item.tutorialmod.imposter_sword": "Imposter sword",
   "block.tutorialmod.mogus_block": "Block of Mogus",
+  "block.tutorialmod.raw_mogus_block": "Block of raw Mogus",
+  "block.tutorialmod.mogus_ore_block": "Mogus Ore block",
   "itemgroup.amongus": "Amongus Mod"
 
 }

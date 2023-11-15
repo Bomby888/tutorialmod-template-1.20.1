@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorialmod:block/mogus_ore_block"
+    }
+  }
+}

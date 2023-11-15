@@ -20,7 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.MOGUS_ORE);
                         entries.add(ModItems.MOGUS_INGOT);
                         entries.add(ModBlocks.MOGUS_BLOCK);
-
+                        entries.add(ModBlocks.RAW_MOGUS_BLOCK);
+                        entries.add(ModBlocks.MOGUS_ORE_BLOCK);
 
                     })).build());
     public static void registerItemGroups(){
