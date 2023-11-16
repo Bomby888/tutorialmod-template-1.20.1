@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:mogus_ore"
+    }
+  },
+  "result" : {
+    "item": "tutorialmod:raw_mogus_block"
+  }
+
+}

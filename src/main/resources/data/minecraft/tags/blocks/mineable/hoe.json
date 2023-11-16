@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:mogus_ore_block",
+    "tutorialmod:mogus_block",
+    "tutorialmod:raw_mogus_block"
+  ]
+}
