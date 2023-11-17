@@ -5,6 +5,8 @@
   "block.tutorialmod.mogus_block": "Block of Mogus",
   "block.tutorialmod.raw_mogus_block": "Block of raw Mogus",
   "block.tutorialmod.mogus_ore_block": "Mogus Ore block",
+  "block.tutorialmod.metal_detector": "Metal Detector",
+  "block.tutorialmod.swift_mogus_sword": "Metal Detector",
   "itemgroup.amongus": "Amongus Mod"
 
 }

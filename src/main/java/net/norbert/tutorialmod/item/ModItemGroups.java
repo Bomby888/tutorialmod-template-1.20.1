@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.IMPOSTER_SWORD);
                         entries.add(ModItems.MOGUS_ORE);
                         entries.add(ModItems.MOGUS_INGOT);
+                        entries.add(ModItems.SWIFT_MOGUS_SWORD);
                         entries.add(ModBlocks.MOGUS_BLOCK);
                         entries.add(ModBlocks.RAW_MOGUS_BLOCK);
                         entries.add(ModBlocks.MOGUS_ORE_BLOCK);
